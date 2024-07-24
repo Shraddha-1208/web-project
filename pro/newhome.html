@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cruise Management - Home</title>
+  <link rel="stylesheet" href="nhome.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="Cruise Management">
+      </div>
+      <ul class="nav-links">
+        <div class="pill-nav">
+          <div class="button-container">
+            <a href="newhome.html"><button class="btn">HOME</button></a>
+            <a href="signup.html"><button class="btn">SIGN UP</button></a>
+            <a href="about.html"><button class="btn">ABOUT US</button></a>
+            <a href="https://www.royalcaribbean.com/cruises?search=ship:IC"><button class="btn">BOOK NOW</button></a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <div class="hero">
+      <video autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      <div class="welcome-message">
+        <h1> ICON OF THE SEA</h1>
+        <p6>Make the most of every moment onboard. Dial up the
+        daring. Unwind like never before. Bond over new bites and
+        toast to next-level nightlife. And catch showstopping
+        spectaculars that will leave you in awe. This is your week to
+        enjoy everything you’ve ever loved about every vacation —
+        all rolled into one.</p6>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="image2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="image3.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="image4.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="image5.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="image6.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="image7.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="image8.jpg" style="width:100%">
+      </div>
+      <!-- Add more slides as needed -->
+    </section>
+
+    <!-- Contact section -->
+
+    <section class="contact-container">
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <ul>
+          <li>Email: info@cruisemanagement.com</li>
+          <li>Phone: +1 (123) 456-7890</li>
+          <li>Address: 123 Cruise Ave, Ocean City, OC</li>
+        </ul>
+      </div>
+      <div class="contact-note">
+        <p>We're here to help! Fill out the form below and we'll get back to you as soon as possible.</p>
+      </div>
+      <div class="contact-form">
+        <form action="controller/contact.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+
+  <!-- Script link -->
+  <script src="nhome.js"></script>
+</body>
+</html>
