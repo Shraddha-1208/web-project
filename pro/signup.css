@@ -1,0 +1,143 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('bag.jpg'); /* Replace 'background-image.jpg' with the path to your background image */
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* semi-transparent black background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  z-index: 2; /* ensure the navigation bar is above the video */
+}
+
+.logo img {
+  height: 50px; /* Adjust height as needed */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding:30px;
+  display: flex;
+}
+
+.nav-links .pill-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links .button-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links .btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #205295;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-links .btn:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures the container takes the full height of the viewport */
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.signup-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.signup-form::before {
+  content: "";
+  background-image: url('background-image.jpg'); /* Replace 'background-image.jpg' with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.6; /* Adjust the opacity as needed */
+  border-radius: 10px;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
