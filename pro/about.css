@@ -1,0 +1,155 @@
+/* CSS for About Us page */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background image for the entire page */
+body {
+  font-family: 'Roboto', sans-serif; /* Set a fallback font */
+  background-color: #f8f8f8; /* Light gray background */
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* semi-transparent black background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  z-index: 2; /* ensure the navigation bar is above the video */
+}
+
+.logo img {
+  height: 50px; /* Adjust height as needed */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding:30px;
+  display: flex;
+}
+
+.nav-links .pill-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links .button-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links .btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #205295;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-links .btn:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+/* Main content container */
+.about-content {
+  max-width: 1200px; /* Limit width of the content */
+  margin: 80px auto; /* Center the content vertically */
+  padding: 40px;
+  background-color: #fff; /* White background */
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  flex:1;
+}
+
+/* Introduction section */
+.intro-section {
+  margin-bottom: 40px;
+}
+
+.intro-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #205295; /* Blue color for headings */
+}
+
+.intro-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+/* Gallery section */
+.gallery-section {
+  margin-bottom: 40px;
+}
+
+.gallery-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #205295;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+  gap: 20px;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.video-container {
+  display: flex;
+}
+
+.video-item {
+  flex: 1; /* Each video takes up an equal width */
+  margin-right: 10px; /* Adjust spacing between videos */
+}
+
+.video-item:last-child {
+  margin-right: 0; /* Remove margin from last video to prevent spacing issues */
+}
+
+.video-item video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.video-item video:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #205295;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
