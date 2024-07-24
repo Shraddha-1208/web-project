@@ -1,0 +1,52 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+}
+
+.topnav {
+    display: flex;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Parallax header */
+.parallax {
+    background-image: url('background.jpg'); /* Your background image here */
+    background-attachment: fixed; /* This creates the parallax effect */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Content section */
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    margin-top: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
