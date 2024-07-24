@@ -1,0 +1,150 @@
+/* nhome.css */
+
+header {
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* semi-transparent black background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  z-index: 2; /* ensure the navigation bar is above the video */
+}
+
+.logo img {
+  height: 50px; /* Adjust height as needed */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding:30px;
+  display: flex;
+}
+
+.nav-links .pill-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links .button-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links .btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #145cbc;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-links .btn:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+
+.hero {
+  position: relative;
+  width: 100%; /* Ensures the video covers the width of the page */
+  overflow: hidden; /* Hides any overflow content */
+}
+
+.hero video {
+  width: 100%;
+  height: auto; /* Allows the video to maintain its aspect ratio */
+}
+
+.welcome-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1; /* ensure the text is above the video */
+  font-size: 36px; /* Increase font size */
+  font-weight: bold; /* Add bold font weight */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0.5); /* Add text shadow for better readability */
+}
+.welcome-message p6 {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  height: 800px; /* Set a fixed height for the container */
+  overflow: hidden; /* Hide any overflow content */
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto; /* Ensures images maintain their aspect ratio */
+}
+
+/* Contact section styling */
+.contact-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 5px;
+}
+
+.contact-note p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #205295;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
