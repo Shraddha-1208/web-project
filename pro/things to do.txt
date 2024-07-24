@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cruise Management - Activity Detail</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#"><img src="logo.png" alt="Cruise Management"></a>
+      </div>
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="things-to-do.html">THINGS TO DO</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="activity-details">
+      <div class="container">
+        <h2>Activity Title</h2>
+        <div class="activity-info">
+          <img src="activity-image.jpg" alt="Activity Image">
+          <p>Description of the activity goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec augue vel nisi sodales commodo nec a mauris.</p>
+        </div>
+        <div class="booking-form">
+          <h3>Book Now</h3>
+          <!-- Booking form goes here -->
+        </div>
+      </div>
+    </section>
+<section id="parallax">
+  <div class="parallax-item">
+    <img src="image1.jpg" alt="Image 1">
+	<div class="parallax-text">THE LARGEST
+WATERPARK AT SEA.<br><br>Brace yourself for Category 6,<br> the largest
+waterpark at sea with six record-breaking slides.<br>
+Like the Frightening Bolt,<br> the tallest waterslide
+to sail. And the Pressure Drop,<br>the first open
+freefall waterslide on a cruise.</div>
+  </div>
+  <div class="parallax-item">
+    <img src="image2.jpg" alt="Image 2">
+	<div class="parallax-text">A NEW
+STAY-ALL-DAY
+NEIGHBORHOOD
+JUST FOR FAMILIES
+<br>Discover adventure for the ages — all the ages
+— at SurfsideSM.<br> With a kid-approved sprawling
+aquapark, a pool just for grownups, plus plenty
+of bites to fuel up for bolder bonding — your
+whole crew will never want to leave.
+</div>
+  </div>
+  <div class="parallax-item">
+    <img src="image3.jpg" alt="Image 3">
+	<div class="parallax-text">
+7 POOLS
+FOR EVERY MOOD
+Choose a different pool for every day of the
+week, including Royal Bay — the largest pool at
+sea. Next-level views are never far away, with an
+array of infinity edges to keep you connected to
+the ocean.</div>
+  </div>
+  <div class="parallax-item">
+    <img src="image4.jpg" alt="Image 4">
+	<div class="parallax-text">WHAT MAKES
+IT ICONIC
+Make the most of every moment onboard. Dial up the
+daring. Unwind like never before. Bond over new bites and
+toast to next-level nightlife. And catch showstopping
+spectaculars that will leave you in awe. This is your week to
+enjoy everything you’ve ever loved about every vacation —
+all rolled into one.</div>
+  </div>
+  <div class="parallax-item">
+    <img src="image5.jpg" alt="Image 5">
+	<div class="parallax-text">Welcome to Our Cruise</div>
+  </div>
+</section>
+ </main>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+</body>
+</html>
